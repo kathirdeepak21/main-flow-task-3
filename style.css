@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+body {
+   background-color:#0c9e44;
+   color: aliceblue;
+   background-image: url(advantages-and-disadvantages-of-organic-farming2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+   
+}   
+
+
+.header{
+    position:fixed;
+    z-index: +2;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+    padding: 20px 10%;
+    background-color: #112203;
+    display:flex;
+    justify-content: space-between;
+    align-items: 100px;
+}
+
+
+.logo{
+    font-size: 25px;
+    color:rgb(235, 234, 236);
+    text-decoration: none;
+    font-weight: 600;
+    
+    right: -10%;
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: #112203;
+    font-family: Arial;
+    justify-content:space-between;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ecf1f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(237, 241, 241);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+img{
+    display: flex;
+    margin: 40px;
+    height: 300px;
+}
+.text{
+    font-weight: 300;
+    color: aliceblue;
+    bottom: 10px;
+    width: 100%;
+    margin-left: 300px;
+    
+    
+}
+h1{
+    width: 50%;
+    font-size: 50px;
+}
+.click{
+    border-radius: 40px;
+    border: solid white 2px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.clickdiv a:hover {
+    color: rgb(48, 238, 27);
+    border: solid rgba(12, 247, 129, 0.788) 3px;
+}

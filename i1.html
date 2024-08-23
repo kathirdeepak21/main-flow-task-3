@@ -1,0 +1,88 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="QTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Mainflow Technology</title>
+    </head>
+    <body>
+        <header class="header">
+            
+            
+            <a href="#" class="logo">Organic Farming</a>
+                
+    
+            
+           
+    
+            <nav class="navbar">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
+				<a href="logout.php">Logout</a>
+                <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Products</button>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                      <div class="dropdown-content">
+                        <a href="#">Beetroot</a>
+                        <a href="#">Carrot</a>
+                        <a href="#">Corn</a>
+                        <a href="#">Cauliflower</a>
+                        <a href="#">Cabbage</a>
+                        <a href="#">Ginger</a>
+                        <a href="#">Onion</a>
+                        <a href="#">Wheat</a>
+    
+                      </div>
+                    </div>
+                  </div>
+                  
+            </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <br>
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <footer class="text">
+                <center>
+                    <h1>Organic Agriculture</h1>
+                    <h2>Bringing you the freshest produce in the land</h2>
+                    <br>
+                    <br>
+                    <div class="clickdiv">
+                        <a class="click" href=" ">Click Here</a>
+                    </div>
+                    <script type="text/javascript" >
+                        alert('welcome,you are logged in')
+                    </script>
+                    
+                </center>
+            </footer>
+        </section>
+        
+    </body>    
+</html>
